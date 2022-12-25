@@ -1,0 +1,46 @@
+<!--This program is telling about the size of table-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table2</title>
+    <style>
+        table , tr , th ,td{ 
+            border : 2px solid blue;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>Size of table</h2>
+    <p>
+        This table is disscuss about the sizing of row and column
+    </p>
+    <table style ="width:100%">
+        <!--width:100%  = this means that table occupies full of the browser-->
+        <tr>
+            <th style = "width:50%">FirstName</th>
+            <th>LastNAme</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>Doe</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackon</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
