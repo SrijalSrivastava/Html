@@ -1,0 +1,127 @@
+table heading
+<!--This program is tell about the heading of table -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Header</title>
+    <style>
+      table , th,td{
+         border: 2px solid blue;
+         border-collapse: collapse;
+
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table  1</h2>
+    <p>Arrange the heading in vertical order</p>
+
+    <table  style="width:100%;">
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Anil</td>
+            <td>Gupta</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Abhishek</td>
+            <td>Gupta</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Aalem</td>
+            <td>Ahamed</td>
+            <td>32</td>
+        </tr>
+    </table><br><br><br>
+    <h2>Table 2</h2>
+    <h4><U>Vertical table header</U></h4>
+    <p>Arrange the heading in vertical order</p>
+    <table  style="width:100%;">
+        <tr>
+            <th>FirstName</th>
+            <td>Anil</td>
+            <td>Abhishek</td>
+            <td>Aalem</td>
+        </tr>
+        <tr>
+            <th>LastName</th>
+            <td>gupta</td>
+            <td>gupta</td>
+            <td>Ahmed</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>11</td>
+            <td>30</td>
+            <td>32</td>
+        </tr> 
+    </table>
+    ><br><br>
+        <h2>Table 3</h2>
+        <p>Vertical table header and horizontal table header</p>
+        <table>
+            <tr>
+                <th></th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <th>8:00</th>
+                <td>    </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>9:00</th>
+                <td>    </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>10:00</th>
+                <td>    </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>11:00</th>
+                <td>    </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>12:00</th>
+                <td>    </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+
+</body>
+</html>
